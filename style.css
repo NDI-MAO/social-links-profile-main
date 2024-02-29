@@ -1,0 +1,81 @@
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    padding: 40px;
+
+
+}
+
+img {
+    border-radius: 50%;
+    align-items: center;
+    max-width: 100px;
+
+
+}
+
+#name {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#Location {
+    font-size: 14px;
+    font-weight: bolder;
+    color: hsl(75, 94%, 57%);
+}
+
+#position {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.reference {
+    font-size: 14px;
+    font-weight: bold;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.box {
+    background-color: hsl(0, 0%, 20%);
+    padding: 12px;
+    border-radius: 6px;
+    transition: padding 1s, background .1s;
+    margin: 0%;
+}
+
+.box:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 400;
+}
+
+.attribution {
+    color: hsl(75, 94%, 57%);
+    font-size: 10px;
+    font-style: italic;
+    padding: 30px;
+}
+
+a {
+    color: hsl(75, 94%, 57%);
+}
