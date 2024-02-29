@@ -26,23 +26,25 @@ img {
     align-items: center;
     max-width: 100px;
 
-
 }
 
 #name {
     font-weight: 400;
     font-size: 24px;
+    margin: 0%;
+    margin-top: 20px;
 }
 
 #Location {
     font-size: 14px;
     font-weight: bolder;
     color: hsl(75, 94%, 57%);
+    margin: 8px;
 }
 
 #position {
     font-size: 14px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .reference {
